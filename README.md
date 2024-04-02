@@ -27,10 +27,4 @@ To set up a Node.js project with TypeScript, ExpressJs, PostgreSQL.
 - docker build -t purpleplum-node-app .
 
 - docker-compose up --build
-=======
-- npm run start
 
-- docker build -t purpleplum-node-app .
-
-- docker-compose up --build
->>>>>>> e4d1e8f5f7ffc7bc316802ede845816e2be4da4a
