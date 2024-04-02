@@ -1,0 +1,29 @@
+{
+  "name": "s-api-1",
+  "version": "1.0.0",
+  "description": "TypeORM",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./dist/server.js",
+    "start": "tsc && npm run dev"
+  },
+  "keywords": [],
+  "author": "Sharath",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.3",
+    "pg": "^8.11.4",
+    "sequelize": "^6.37.2",
+    "sequelize-typescript": "^2.1.6",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.2",
+    "ts-node": "^10.9.2"
+  }
+}
