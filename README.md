@@ -16,11 +16,13 @@ To set up a Node.js project with TypeScript, ExpressJs, PostgreSQL.
 - Run the Express Server
 
 ## INSTALL AND SETUP
--To execute the file, first install the docker postgres node on your PC. 
--Then, open the folder and install npm. Replace the credentials with your database. 
+- To execute the file, first install the docker postgres node on your PC. 
+- Then, open the folder and install npm. Replace the credentials with your database. 
 
 
 ## RUN
--- docker build -t purpleplum-node-app .
+- npm run start
 
--- docker-compose up --build
+- docker build -t purpleplum-node-app .
+
+- docker-compose up --build
